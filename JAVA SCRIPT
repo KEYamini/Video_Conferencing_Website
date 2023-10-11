@@ -1,0 +1,29 @@
+#video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#local-video, #remote-video {
+    width: 50%;
+    height: auto;
+}
+
+#chat-container {
+    margin-top: 20px;
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#chat-input {
+    width: 70%;
+}
+
+#send-button {
+    width: 20%;
+    margin-left: 10px;
+}
